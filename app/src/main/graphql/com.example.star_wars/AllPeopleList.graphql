@@ -1,0 +1,17 @@
+query AllPeople($get: Int!, $after: String) {   #optener listado de los personajes
+    allPeople(first: $get, after: $after) {
+        people {
+            id
+            name,
+            species {
+                name
+            }
+            homeworld {
+                name
+            }
+        }
+        pageInfo {
+            endCursor
+        }
+    }
+}
