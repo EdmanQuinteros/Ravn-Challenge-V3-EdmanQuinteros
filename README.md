@@ -1,7 +1,7 @@
 # Ravn-Challenge-V3-EdmanQuinteros
 Android application, whose purpose is to consume the Star Wars GraphQL API, using the Apollo GraphQL client. This application will show the characters and details of Star Wars.
 
-## App Star Wars
+## Star Wars app description
 * This app is developed in Android Studio, the project connects with Star Wars GraphQL Api using Apollo Graphql client.
 * It will show a loading indicator when the app starts.
 * It will be indicated through a message when a query has failed.
