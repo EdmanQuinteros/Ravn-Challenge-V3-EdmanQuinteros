@@ -39,10 +39,12 @@ class DetailsActivity : AppCompatActivity() {
         mApolloClient = apolloClient
         actionBar = supportActionBar!!
         mVehiclesListAdapter = VehiclesAdapter(this, mVehiclesList)
+
         rv_vehicles.adapter = mVehiclesListAdapter
         rv_vehicles.layoutManager = LinearLayoutManager(this)
 
         rv_vehicles.setHasFixedSize(true)
+
 
         // to active the back button
         actionBar.setDisplayHomeAsUpEnabled(true)
