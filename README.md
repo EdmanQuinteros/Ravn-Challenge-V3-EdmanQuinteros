@@ -9,6 +9,10 @@ Android application, whose purpose is to consume the Star Wars GraphQL API, usin
 * It will show the details of a selected character.
 * Search for a character by name
 
+## Gif project
+![bloggif_622cadb820748](https://user-images.githubusercontent.com/78781826/158021988-a39e1307-9764-4ce9-ba01-0b26eceeafa0.gif)
+![bloggif_622caa6181590](https://user-images.githubusercontent.com/78781826/158021996-bc1d85c6-8169-4aaf-8a26-2141b06b3b50.gif)
+
 ## Technologies used.
 * Apollo client Graphql
 * Api Graphql -Star Wars
